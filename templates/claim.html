@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+    body{
+      font-family:open sans-serif, sans-serif;
+      background: #60BCEB;
+      padding-top: 0px;
+/*      padding-left: 100pxpx;
+      padding-right: 400px;*/
+    }
+
+
+input[type=text], input[type=password],input[type=number],input[type=tel]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.imgcontainer {
+/*  text-align: center;*/
+  margin: 0px 0 0px 0;
+  border-radius: 2px;
+}
+
+h2{
+  margin-top: 30px;
+  color:white;
+  letter-spacing: 5px;
+  font-size: 22px;
+}
+
+img.avatar {
+  width: 60%;
+  height: 50%
+
+}
+
+.container {
+  padding: 16px;
+  color:white;
+}
+
+
+h1 {
+  font-family: inherit;
+  margin: 0 0 0.75em 0;
+  color: #728c8d;
+/*  text-align: center;*/
+}
+
+p{
+  margin-top: 10px;
+  color:white;
+/*  letter-spacing: 5px;*/
+  font-size: 22px;
+    font-family: inherit;
+/*  text-align: center;*/
+}
+
+.cost{
+    margin-top: 1px;
+  color:black;
+/*  letter-spacing: 5px;*/
+  font-size: 22px;
+    font-family: inherit;
+/*  text-align: center;*/
+}
+
+
+.animate {
+  -webkit-animation: ripple 0.4s linear;
+          animation: ripple 0.4s linear;
+}
+
+@-webkit-keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+            transform: scale(2.5);
+  }
+}
+
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+            transform: scale(2.5);
+  }
+}
+
+.column {
+  float:left;
+  width: 45%;
+  padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+button {
+  background-color: #FF9265;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 20px;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+</style>
+
+<!--     <style>
+    body {background-image: url("static/car.jpg");
+    background-repeat: no-repeat;
+  background-size: auto;
+background-size: cover;}
+img   {color: blue;
+align-content: center;
+padding-top: 20px;
+}
+p    {color: black;
+align-content: center;
+}
+  </style> -->
+</head>
+
+
+
+<body>
+  <br>
+<center><h2>INSUREPLUS</h2></center>
+<br><br>
+<!--   <div class="imgcontainer">
+    <img src="/static/car.gif" style="width:300px;height:200px;">
+  </div> -->
+
+<div class="row">
+<center>
+  <div class="column">
+    <br>
+    <img src="static/{{ user_image }}" style="width:430px;height:280px; margin-left:280px;">
+  </div>
+  <div class="column">
+<!--     <div class="imgcontainer"> -->
+    <img src="/static/car.gif" style="width:300px;height:200px; ">
+<!--     </div> -->
+    <p>Estimated cost to repair the car</p>
+    <p class="cost"><b>{{ user_input }}</b></p>
+
+  </div>
+
+<!--   <p>Estimated cost to repair the car </p>
+  <p class="cost"><b>{{ user_input }}</b></p> -->
+</center>
+</div>  
+<br><br><br>
+
+  <div class="container">
+    <center><a href="{{url_for('insure')}}"><button type="button">CLAIM ANOTHER INSURANCE</button></a>
+      <center><a href="{{url_for('support')}}"><button type="button">SUPPORT</button></a>
+    <br>
+<!--     <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label> -->
+    </center>
+  </div>
+</body>
+</html>
