@@ -20,8 +20,8 @@ As technology moves ahead, so will we Zapsure will be soon including Health Insu
 #Model Overview
 
 **Model on 3 different scenarios:**
-![Perfect Car]
-![Lightly Damaged Car]
-![Moderately Damaged Car]
+- Perfect Car
+- Lightly Damaged Car
+- Moderately Damaged Car
 
 
