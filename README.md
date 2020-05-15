@@ -17,7 +17,7 @@ There has not been a major disruption in the insurance industry since decades an
 **Future Opportunity ⏲️**
 As technology moves ahead, so will we Zapsure will be soon including Health Insurance where in users could give in their XRAY scans, LAB reports etc. and that will assess the health claim in according to the database given by the respective hospital.
 
-#Model Overview
+# Model Overview
 
 **Model on 3 different scenarios:**
 - Perfect Car
