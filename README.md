@@ -20,14 +20,8 @@ As technology moves ahead, so will we Zapsure will be soon including Health Insu
 #Model Overview
 
 **Model on 3 different scenarios:**
+![Perfect Car]
+![Lightly Damaged Car]
+![Moderately Damaged Car]
 
-![Perfect Car](https://github.com/MehtaAkshita/InsurePlus/blob/master/outputs/1.PNG)
-
-![Lightly Damaged Car](https://github.com/MehtaAkshita/InsurePlus/blob/master/outputs/2.PNG)
-
-![Moderately Damaged Car](https://github.com/MehtaAkshita/InsurePlus/blob/master/outputs/4.PNG)
-
-
-
-🔥
 
